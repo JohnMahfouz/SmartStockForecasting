@@ -3,8 +3,6 @@ import numpy as np
 from datetime import datetime, timedelta
 
 
-print("🚀 Starting Enhanced Data Preparation...")
-
 df = pd.read_csv('C:\\Users\\John\\Desktop\\SmartStock_Forecasting\\data\\train.csv', parse_dates=['Date'], low_memory=False)
 store = pd.read_csv('C:\\Users\\John\\Desktop\\SmartStock_Forecasting\\data\\store.csv')
 
